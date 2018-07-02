@@ -8,12 +8,11 @@
 </head>
 <body>
 <div class="container-fluid row">
-    <div class="container col-lg-6 text-center">
+    <div class="container col-lg-8 text-center">
+        <div class="disable"></div>
         <form class="row " action="/library" method="post">
-            <label for=""></label>
             <input type="email" placeholder="Email" name="email"  oninvalid="this.setCustomValidity('Email не верный')">
-            <label for=""></label>
-            <input type="password" placeholder="pass" name="pass">
+            <input type="password" placeholder="Password" name="pass" onclick="">
             <input type="submit" name="login">
         </form>
     </div>
